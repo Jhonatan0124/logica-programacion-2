@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" type="image/x-icon" href="/img/Logo-Generation-Ventana.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de Temperaturas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <span class="logo">
+            <img src="img/logoSinFondo.png" alt="Logo">
+            
+        </span>
+        <button class="btn-menu"><i class='bx bx-menu'></i></button>
+        <ul class="menu-options">
+            <li><h2>Bienvenidos al Programa de Conversion en Temperaturas</h2></li>
+            
+            <li class="switch">
+                <i class='bx bxs-sun' ></i>
+                <i class='bx bxs-moon' ></i>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header__info">
+            <div class="info">
+                <div class="info__childs">
+                    <p class="hello">Celsius a grados Fahrenheit o Kelvin</p>
+                    <h1>Hola</h1>
+                    <p class="descripcion">Por favor <br> Ingresa la temperatura en grados Celsius:</p>
+                    <input type="number" id="celsius-input" placeholder="Ingresa la temperatura en Celsius">
+                    <!-- Selector para escoger la conversión -->
+                    <div class="conversion-options">
+                        <label>
+                            <input type="radio" name="conversion" value="fahrenheit" checked> Convertir a Fahrenheit
+                        </label>
+                        <label>
+                            <input type="radio" name="conversion" value="kelvin"> Convertir a Kelvin
+                        </label>
+                    </div>
+
+                    <a href="" class="boton"><button id="convertirBtn">Convertir</button></a>
+                    <!-- Resultado de la conversión -->
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </div>
+        <div class="y-container"></div>
+        <img class="foto" src="/img/conversorSinFondo.png" alt="empresario">
+    </header>
+    
+    <script src="script2.js"></script>
+    <script src="dark.js"></script>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <img src="/img/GenerationColombia.png" alt="Logo" class="logo1">
+        
+    </div>
+</footer>    
+</html>
